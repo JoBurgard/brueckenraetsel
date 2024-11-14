@@ -1,2 +1,9 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script>
+	import Puzzles from './src/Puzzles.svelte';
+
+	const { data } = $props();
+</script>
+
+<div class="flex min-h-[100vh] w-[100vw] items-center justify-center">
+	<Puzzles puzzles={data.puzzles} />
+</div>

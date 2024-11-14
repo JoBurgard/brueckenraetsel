@@ -1,6 +1,5 @@
-/db/input
-/db/main.sqlite*
 /.vscode
+/db/words.sqlite-shm
 
 node_modules
 
